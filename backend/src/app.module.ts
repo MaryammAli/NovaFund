@@ -12,6 +12,7 @@ import { IndexerModule } from './indexer/indexer.module';
 import { NotificationModule } from './notification/notification.module';
 import { BridgeModule } from './bridge/bridge.module';
 import { YieldModule } from './yield/yield.module';
+import { RelayModule } from './relay/relay.module';
 
 @Module({
   imports: [
@@ -31,6 +32,7 @@ import { YieldModule } from './yield/yield.module';
     NotificationModule,
     BridgeModule,
     YieldModule,
+    RelayModule,
   ],
   controllers: [AppController, UserController],
   providers: [AppService],
